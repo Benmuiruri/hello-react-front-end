@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getGreeting } from '../../redux/greeting/greeting';
+import classes from './Greeting.module.css';
 
 function Greeting() {
   // @ts-ignore
@@ -15,7 +16,7 @@ function Greeting() {
 
   return (
     <>
-      <div className='container'>
+      <div className={classes.container}>
         <h1>Greetings from around the world</h1>
         <p>
           {greeting.length
