@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Ruby on Rails - Rails Mint
+# React Fron-end App
 
 > A React front-end application that interacts with a Rails API to display greetings from around the world
 
@@ -16,7 +16,7 @@ To get a local copy up and running follow these simple example steps.
 ## Setup and Usage
 **Start Back-end Rails server**
 - *Note -> You need to start the Rails server first at port 3000 then start the React server at a different port*
-- Clone the back-end rails server from `git@github.com:Benmuiruri/hello-rails-back-end.git`
+- Clone the back-end rails API from `git@github.com:Benmuiruri/hello-rails-back-end.git`
 - navigate to the folder `cd hello-rails-back-end`
 - Install required gems `bundle install`
 - Load the database `rails db:reset`
@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Benmuiruri/rails-mint/issues).
+Feel free to check the [issues page](https://github.com/Benmuiruri/hello-react-front-end/issues).
 
 ## Show your support
 
